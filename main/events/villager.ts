@@ -17,7 +17,7 @@ export default class VillagerEvent extends RpgEvent {
         }
         await player.showText('Hello new student!')
         await player.showText('Heres a little something to get you started')
-        await player.showText('*** Received 10 gold & a Starter kit ***', {
+        await player.showText('*** Received 10 gold and a Starter kit ***', {
             talkWith: this
         })
         player.gold += 10
